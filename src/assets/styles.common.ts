@@ -1,0 +1,173 @@
+import {heightScale, fontScale, height, width} from '../utils/index.utils';
+import {StyleSheet} from 'react-native';
+import {colors} from './colors/colors';
+
+const shadow = StyleSheet.create({
+  shadowOffset: {width: 0, height: 2},
+  shadowColor: colors.black,
+  shadowOpacity: 0.1,
+  elevation: 5,
+  backgroundColor: colors.white,
+  boxShadow: '0 0 5px 3px rgba(0,0,0,0.1)',
+});
+export const CommonStyle = StyleSheet.create({
+  justifyContentCenter: {
+    justifyContent: 'center',
+  },
+  alignItemsCenter: {
+    alignItems: 'center',
+  },
+  textAlignCenter: {
+    textAlign: 'center',
+  },
+  flex1: {flex: 1},
+  flexp2: {flex: 0.2},
+  flexp3: {flex: 0.3},
+  flexp4: {flex: 0.4},
+  flexp5: {flex: 0.5},
+  flexp6: {flex: 0.6},
+  flexp7: {flex: 0.7},
+  flexp8: {flex: 0.8},
+  flexp9: {flex: 0.9},
+  row: {flexDirection: 'row'},
+
+  p0: {padding: heightScale(0)},
+  p1: {padding: heightScale(10)},
+  p2: {padding: heightScale(15)},
+  p3: {padding: heightScale(20)},
+  p4: {padding: heightScale(25)},
+  p5: {padding: heightScale(30)},
+
+  px0: {paddingHorizontal: heightScale(0)},
+  px1: {paddingHorizontal: heightScale(10)},
+  px2: {paddingHorizontal: heightScale(15)},
+  px3: {paddingHorizontal: heightScale(20)},
+  px4: {paddingHorizontal: heightScale(25)},
+  px5: {paddingHorizontal: heightScale(30)},
+
+  py0: {paddingVertical: heightScale(0)},
+  py1: {paddingVertical: heightScale(10)},
+  py2: {paddingVertical: heightScale(15)},
+  py3: {paddingVertical: heightScale(20)},
+  py4: {paddingVertical: heightScale(25)},
+  py5: {paddingVertical: heightScale(30)},
+
+  ps0: {paddingLeft: heightScale(0)},
+  ps1: {paddingLeft: heightScale(10)},
+  ps2: {paddingLeft: heightScale(15)},
+  ps3: {paddingLeft: heightScale(20)},
+  ps4: {paddingLeft: heightScale(25)},
+  ps5: {paddingLeft: heightScale(30)},
+
+  pe0: {paddingRight: heightScale(0)},
+  pe1: {paddingRight: heightScale(10)},
+  pe2: {paddingRight: heightScale(15)},
+  pe3: {paddingRight: heightScale(20)},
+  pe4: {paddingRight: heightScale(25)},
+  pe5: {paddingRight: heightScale(30)},
+
+  pt0: {paddingTop: heightScale(0)},
+  pt1: {paddingTop: heightScale(10)},
+  pt2: {paddingTop: heightScale(15)},
+  pt3: {paddingTop: heightScale(20)},
+  pt4: {paddingTop: heightScale(25)},
+  pt5: {paddingTop: heightScale(30)},
+
+  pb0: {paddingBottom: heightScale(0)},
+  pb1: {paddingBottom: heightScale(10)},
+  pb2: {paddingBottom: heightScale(15)},
+  pb3: {paddingBottom: heightScale(20)},
+  pb4: {paddingBottom: heightScale(25)},
+  pb5: {paddingBottom: heightScale(30)},
+
+  m0: {margin: heightScale(0)},
+  m1: {margin: heightScale(10)},
+  m2: {margin: heightScale(15)},
+  m3: {margin: heightScale(20)},
+  m4: {margin: heightScale(25)},
+  m5: {margin: heightScale(30)},
+
+  mx0: {marginHorizontal: heightScale(0)},
+  mx1: {marginHorizontal: heightScale(10)},
+  mx2: {marginHorizontal: heightScale(15)},
+  mx3: {marginHorizontal: heightScale(20)},
+  mx4: {marginHorizontal: heightScale(25)},
+  mx5: {marginHorizontal: heightScale(30)},
+
+  my0: {marginVertical: heightScale(0)},
+  my1: {marginVertical: heightScale(10)},
+  my2: {marginVertical: heightScale(15)},
+  my3: {marginVertical: heightScale(20)},
+  my4: {marginVertical: heightScale(25)},
+  my5: {marginVertical: heightScale(30)},
+
+  ms0: {marginLeft: heightScale(0)},
+  ms1: {marginLeft: heightScale(10)},
+  ms2: {marginLeft: heightScale(15)},
+  ms3: {marginLeft: heightScale(20)},
+  ms4: {marginLeft: heightScale(25)},
+  ms5: {marginLeft: heightScale(30)},
+
+  me0: {marginRight: heightScale(0)},
+  me1: {marginRight: heightScale(10)},
+  me2: {marginRight: heightScale(15)},
+  me3: {marginRight: heightScale(20)},
+  me4: {marginRight: heightScale(25)},
+  me5: {marginRight: heightScale(30)},
+
+  mt0: {marginTop: heightScale(0)},
+  mt1: {marginTop: heightScale(10)},
+  mt2: {marginTop: heightScale(15)},
+  mt3: {marginTop: heightScale(20)},
+  mt4: {marginTop: heightScale(25)},
+  mt5: {marginTop: heightScale(30)},
+
+  mb0: {marginBottom: heightScale(0)},
+  mb1: {marginBottom: heightScale(10)},
+  mb2: {marginBottom: heightScale(15)},
+  mb3: {marginBottom: heightScale(20)},
+  mb4: {marginBottom: heightScale(25)},
+  mb5: {marginBottom: heightScale(30)},
+
+  width10: {width: '10%'},
+  width20: {width: '20%'},
+  width30: {width: '30%'},
+  width40: {width: '40%'},
+  width50: {width: '50%'},
+  width60: {width: '60%'},
+  width70: {width: '70%'},
+  width80: {width: '80%'},
+  width90: {width: '90%'},
+  width95: {width: '95%'},
+  width100: {width: '100%'},
+
+  center: {justifyContent: 'center', alignItems: 'center'},
+  textCenter: {textAlign: 'center'},
+  mid: {justifyContent: 'center', alignItems: 'center', alignContent: 'center'},
+  jcenter: {justifyContent: 'center'},
+  acenter: {alignItems: 'center'},
+
+  container: {
+    paddingVertical: heightScale(5),
+    paddingHorizontal: heightScale(10),
+    backgroundColor: colors.container,
+  },
+  text: {
+    fontSize: fontScale(16),
+    color: colors.secondaryText,
+  },
+  shadow,
+  borderRadius: heightScale(10),
+  imageHeight: {height: heightScale(200), width: heightScale(200)},
+  zIndex1: {zIndex: 1},
+  zIndex2: {zIndex: 2},
+  transparentBorder: {borderColor: colors.white},
+  deviceCenter: {
+    height,
+    width,
+  },
+
+  textbold: {
+    fontWeight: '700',
+  },
+});

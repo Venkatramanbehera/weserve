@@ -1,0 +1,9 @@
+export const Msg_Icon = require('./sms.png');
+export const Password_Icon = require('./lock.png');
+export const Eye_Icon = require('./eye.png');
+export const Eye_slash_Icon = require('./eye-slash.png');
+export const Location_Icon = require('./location.png');
+export const Hello_Icon = require('./hello.png');
+export const homeTab = require('./homeTab.png');
+export const profileTab = require('./profileTab.png');
+export const addTab = require('./addTab.png');
